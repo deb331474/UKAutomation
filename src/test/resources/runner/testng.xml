@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UkAutomation">
+<listeners>
+	<listener class-name="in.debasish.extentListeners.ExtentListeners" />
+		</listeners>
+  <test thread-count="5" name="LoginTest">
+    <classes>
+      <class name="in.debasish.testCases.GetAllItemsTest"/>
+    </classes>
+    
+  </test> <!-- LoginTest -->
+</suite> <!-- UkAutomation -->
